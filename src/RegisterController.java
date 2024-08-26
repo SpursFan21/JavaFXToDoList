@@ -7,12 +7,16 @@ import javafx.scene.control.TextField;
 
 public class RegisterController {
     @FXML
-    private TextField usernamField;
+    private TextField usernameField;
     @FXML
     private PasswordField passwordField;
 
     @FXML
     private void handleRegister(){
-        System.out.println("Register clicked");
+        String username = usernameField.getText();
+        String password = passwordField.getText();
+
+        DatabaseHelper.createUser(username, password);
+        System.out.println("User registered");
     }
 }
