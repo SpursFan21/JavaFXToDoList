@@ -1,0 +1,59 @@
+# Compiled class files
+*.class
+
+# Java JAR files
+*.jar
+*.war
+*.ear
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle
+
+# Maven target directory
+target/
+
+# Gradle build directory
+build/
+
+# Logs
+*.log
+
+# JavaFX application build files
+*.fxbuild
+
+# Libraries directory
+lib/
+
+# Other IDE-specific files
+*.swp
+*.swo
+*.swn
+*.swa
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp
+
+# MacOS Finder folder attributes
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Desktop.ini
+$RECYCLE.BIN/
